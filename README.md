@@ -7,4 +7,10 @@ Using ISSUES As Your Server Moderator You Will Be Ale To Make Your Website And W
 
 
 ====Files===
+------------------------------------------------------------------------------------------------------------
 php.ini (This File Is Used To Make Your System Secure,And It Must Be Uploaded On Root Path of Your Hosting.)
+------------------------------------------------------------------------------------------------------------
+     
+     |= main.css
+inc  |= include.php
+     |= javascript.js
