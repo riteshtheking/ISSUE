@@ -6,10 +6,11 @@ Using ISSUES As Your Server Moderator You Will Be Ale To Make Your Website And W
 
 
 
-====Files===
+==== Files ===
 ------------
   
      /php.ini
-     inc/ main.css
+     /.htaccess
      inc/ include.php
-     inc/ javascript.js
+     inc/ main.min.js.php
+     inc/ main.min.css.php
