@@ -1,0 +1,107 @@
+
+DirectoryIndex index.php index.html home.php home.html homepage.php homepage.html dashboard.php dashboard.html
+
+
+
+RewriteEngine on
+RewriteBase /
+RewriteRule ^(.+)\.php$ /$1 [R,L]
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*?)/?$ /$1.php [NC,END]
+
+
+Options -Indexes
+IndexIgnore *.jpg
+IndexIgnore *.png
+IndexIgnore *.gif
+IndexIgnore *.jpeg
+IndexIgnore *.svg
+IndexIgnore *.css
+IndexIgnore *.scss
+IndexIgnore *.mp4
+IndexIgnore *.mp3
+IndexIgnore *.ogg
+IndexIgnore *.pptx
+IndexIgnore *.csv
+IndexIgnore *.cvv
+IndexIgnore *.xls
+IndexIgnore *.txt
+IndexIgnore *.ini
+IndexIgnore *.ink
+IndexIgnore *.pdf
+IndexIgnore *.docx
+IndexIgnore *.php
+IndexIgnore *.html
+IndexIgnore *.avi
+IndexIgnore *.mkv
+IndexIgnore *.3gp
+IndexIgnore *.wmpv
+IndexIgnore *.wav
+IndexIgnore *.apk
+IndexIgnore *.exe
+IndexIgnore *.tmp
+IndexIgnore *.rar
+IndexIgnore *.zip
+IndexIgnore *.tar
+IndexIgnore *.gz
+IndexIgnore *.obb
+IndexIgnore *.dll
+IndexIgnore *.db
+IndexIgnore *.sql
+IndexIgnore *.htaccess
+IndexIgnore *.sh
+IndexIgnore *.c
+IndexIgnore *.ruby
+IndexIgnore *.py
+IndexIgnore *.md
+IndexIgnore *.wp
+IndexIgnore *.amr
+IndexIgnore *.aux
+IndexIgnore *.ttf
+IndexIgnore *.cpt
+IndexIgnore *.webm
+IndexIgnore *.phtml
+IndexIgnore *.rhtml
+IndexIgnore *.htm
+IndexIgnore *.chtml
+IndexIgnore *.kde
+IndexIgnore *.vista
+IndexIgnore *.cwf
+IndexIgnore *.flv
+IndexIgnore *.fls
+IndexIgnore *.cui
+IndexIgnore *.enc
+IndexIgnore *.yii
+IndexIgnore *.gui
+IndexIgnore *.dat
+IndexIgnore *.config
+IndexIgnore *.dat
+IndexIgnore *.ani
+IndexIgnore *.axd
+IndexIgnore *.ashx
+IndexIgnore *.download
+IndexIgnore *.bat
+IndexIgnore *.gradle
+IndexIgnore *.xml
+IndexIgnore *.dat
+IndexIgnore *.pro
+IndexIgnore *.json
+IndexIgnore *.gradle
+IndexIgnore *.git
+IndexIgnore *.java
+IndexIgnore *.jar
+IndexIgnore *.jad
+IndexIgnore *.iml
+IndexIgnore *.lgu
+IndexIgnore *.mhtml
+IndexIgnore *.ico
+IndexIgnore *.woff
+IndexIgnore *.woff2
+IndexIgnore *.eot
+IndexIgnore *.loaded
+IndexIgnore *.load
+IndexIgnore *.psd
+IndexIgnore *.mno
+IndexIgnore *.img
+IndexIgnore *.ipf
+IndexIgnore *.*
