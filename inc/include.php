@@ -14,8 +14,6 @@ $DB->set_charset('utf8');
 
 
 
-//Using PHP Header funtion that no one can open your webpage in iframe
- header("X-FRAME-OPTIONS: DENY");
 
 
 
@@ -32,6 +30,39 @@ if (isset($_GET[$file]) {
 }
 
 
+    
+    
+    
+    
+    
+    
+    
+//Set $iframe to 0 if you wantto prevent your page from being showed in iframe
+$iframe = '1';
+    if($iframe==0){
+ //Using PHP Header's xframe funtion that no one can open your webpage in iframe
+ header("X-FRAME-OPTIONS: DENY");    }
+    if{$iframe==1}{
+ //Allowing PHP Header xframe funtion that anyone can open your webpage in iframe
+ header("X-FRAME-OPTIONS: ALLOW");
+}
+    
+    
 
+//Set $rightclick to 0 if you want your page not to be right clickable
+$rightclick = '1';
+    if($rightclick==0){
+ //Adding A Simple HTML Script That Won't Let Anyone Right Click On Your Page
+ echo"<body oncontextmenu='return false'>";    }
+    if{$rightclick==1}{
+ //Allowing PHP Header xframe funtion that anyone can open your webpage in iframe
+ echo"<body>";
+}
+    
+    
 
+    
+    
+    
+    
 ?>
