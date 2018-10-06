@@ -71,6 +71,13 @@ $rightclick = '1';
     
     
 
+
+echo"<script>";
+ include('main.min.js.php');
+echo"</script>";    
+    
+    
+    
     
     
     
