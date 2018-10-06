@@ -1,6 +1,16 @@
 <?php 
 
 
+//Set $errors to 0 if you want to hide the errors of your page and set it to 1 if you want to show them
+$error = '0';
+error_reporting(E_ALL);
+ini_set("display_errors", $error);
+
+
+
+
+
+
 //Make Your SQL Secure
 $hst = '';  //Your Mysql Host 
 $usr = '';  //Your Mysql Username
