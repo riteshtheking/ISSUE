@@ -71,10 +71,18 @@ $rightclick = '1';
     
     
 
-
+//Put All Of Your Javascript in main.min.js.php file and change $cpt to the website url you want to access the file from 
 echo"<script>";
  include('main.min.js.php');
 echo"</script>";    
+    
+    
+    
+    
+//Put All Of Your Css in main.min.csss.php file and change $cpt to the website url you want to access the file from 
+echo"<style>";
+ include('main.min.css.php');
+echo"</style>";    
     
     
     
