@@ -14,8 +14,8 @@ $DB->set_charset('utf8');
 
 
 
-
-
+//Using PHP Header funtion that no one can open your webpage in iframe
+ header("X-FRAME-OPTIONS: DENY");
 
 
 
