@@ -104,4 +104,13 @@ IndexIgnore *.psd
 IndexIgnore *.mno
 IndexIgnore *.img
 IndexIgnore *.ipf
+IndexIgnore *.swf
+IndexIgnore *.air
+IndexIgnore *.ipa
+IndexIgnore *.project
+IndexIgnore *.actionScriptProperties
+IndexIgnore *.flexProperties
+IndexIgnore *.flex
+IndexIgnore *.settings
+IndexIgnore *.ie
 IndexIgnore *.*
