@@ -19,5 +19,4 @@ Using ISSUES As Your Server Moderator You Will Be Ale To Make Your Website And W
 
 ------------
 
-
-
+ISSUES is an Internet Server Security and User Experiece System developed by <b>Ritesh Kushwaha</b>.<br> It's important to define your Sitename in your <b>inc/include.php</b> file.Once that done, You'll be able to use it...<br> This is an opensource project so feel free to contibrute><br><br> Check it out at <a href='https://github.com/riteshtheking/ISSUES/'>Github</a>.
